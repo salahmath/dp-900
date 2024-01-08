@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Big Data QCM</title>
+</head>
+<style>
+    .correct-answer {
+      color: green;
+      font-weight: bold;
+    }
+    .incorrect-answer {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+<body>
+    <div id="quiz-container">
+        
+        <div class="question" id="question1">
+            <p>1) Que devez-vous utiliser pour traiter de grandes quantités de données à l'aide d'Apache Hadoop ?</p>
+            <input type="radio" id="q1-a1" name="q1" value="Azure Data Factory">
+            <label for="q1-a1">Azure Data Factory</label><br>
+            <input type="radio" id="q1-a2" name="q1" value="Azure Databricks">
+            <label for="q1-a2">Azure Databricks</label><br>
+            <input type="radio" id="q1-a3" name="q1" value="Azure HDInsight">
+            <label for="q1-a3">Azure HDInsight</label><br>
+            <input type="radio" id="q1-a4" name="q1" value="Azure Synapse Analytics">
+            <label for="q1-a4">Azure Synapse Analytics</label><br>
+        </div>
+        
+        <div class="question" id="question2">
+            <p>2) Quel service repose sur Apache Spark et est compatible avec d'autres fournisseurs de services cloud ?</p>
+            <input type="radio" id="q2-a1" name="q2" value="Azure Data Factory">
+            <label for="q2-a1">Azure Data Factory</label><br>
+            <input type="radio" id="q2-a2" name="q2" value="Azure Databricks">
+            <label for="q2-a2">Azure Databricks</label><br>
+            <input type="radio" id="q2-a3" name="q2" value="Azure HDInsight">
+            <label for="q2-a3">Azure HDInsight</label><br>
+            <input type="radio" id="q2-a4" name="q2" value="Azure Synapse Analytics">
+            <label for="q2-a4">Azure Synapse Analytics</label><br>
+        </div>
+        
+        <div class="question" id="question3">
+            <p>3) Quel service d’intégration de données vous permet d’orchestrer des flux de données sans programmer ?</p>
+            <input type="radio" id="q3-a1" name="q3" value="Azure Data Factory">
+            <label for="q3-a1">Azure Data Factory</label><br>
+            <input type="radio" id="q3-a2" name="q3" value="Azure Data Lake">
+            <label for="q3-a2">Azure Data Lake</label><br>
+            <input type="radio" id="q3-a3" name="q3" value="Azure Databricks">
+            <label for="q3-a3">Azure Databricks</label><br>
+            <input type="radio" id="q3-a4" name="q3" value="Azure HDInsight">
+            <label for="q3-a4">Azure HDInsight</label><br>
+        </div>
+        
+        <div class="question" id="question4">
+            <p>4) Quels sont les deux services qui vous permettent de créer un pipeline pour traiter des données en réponse à un événement ? Chaque réponse correcte présente une solution complète.</p>
+            <input type="radio" id="q4-a1" name="q4" value="Azure Data Factory">
+            <label for="q4-a1">Azure Data Factory</label><br>
+            <input type="radio" id="q4-a2" name="q4" value="Azure Databricks">
+            <label for="q4-a2">Azure Databricks</label><br>
+            <input type="radio" id="q4-a3" name="q4" value="Azure HDInsight">
+            <label for="q4-a3">Azure HDInsight</label><br>
+            <input type="radio" id="q4-a4" name="q4" value="Azure Synapse Analytics">
+            <label for="q4-a4">Azure Synapse Analytics</label><br>
+        </div>
+        
+        <div class="question" id="question5">
+            <p>5) Quels sont les deux services qui vous permettent de prétraiter un grand volume de données à l’aide de Scala ? Chaque réponse correcte présente une solution complète.</p>
+            <input type="radio" id="q5-a1" name="q5" value="Un pool Apache Spark serverless dans Azure Synapse Analytics">
+            <label for="q5-a1">Un pool Apache Spark serverless dans Azure Synapse Analytics</label><br>
+            <input type="radio" id="q5-a2" name="q5" value="Azure Databricks">
+            <label for="q5-a2">Azure Databricks</label><br>
+            <input type="radio" id="q5-a3" name="q5" value="Un pool SQL dédié dans Azure Synapse Analytics">
+            <label for="q5-a3">Un pool SQL dédié dans Azure Synapse Analytics</label><br>
+            <input type="radio" id="q5-a4" name="q5" value="Le pool SQL serverless dans Azure Synapse Analytics">
+            <label for="q5-a4">Le pool SQL serverless dans Azure Synapse Analytics</label><br>
+        </div>
+        
+        <div class="question" id="question6">
+            <p>6) Que devez-vous créer en premier pour un processus d’intégration qui copie des données de fichiers Microsoft Excel vers des fichiers Parquet à l’aide d’Azure Data Factory ?</p>
+            <input type="radio" id="q6-a1" name="q6" value="Un jeu de données">
+            <label for="q6-a1">Un jeu de données</label><br>
+            <input type="radio" id="q6-a2" name="q6" value="Un service lié">
+            <label for="q6-a2">Un service lié</label><br>
+            <input type="radio" id="q6-a3" name="q6" value="Un pipeline">
+            <label for="q6-a3">Un pipeline</label><br>
+            <input type="radio" id="q6-a4" name="q6" value="Une activité">
+            <label for="q6-a4">Une activité</label><br>
+        </div>
+        
+        <div class="question" id="question7">
+            <p>7) Vous disposez d’un service Azure Cosmos DB qui exécute l’API SQL. L’une des bases de données opérationnelles a beaucoup de transactions. Quel service vous permet d’effectuer de l’analytique en quasi-temps réel sur les données opérationnelles stockées dans Azure Cosmos DB ?</p>
+            <input type="radio" id="q7-a1" name="q7" value="Azure Data Lake Storage">
+            <label for="q7-a1">Azure Data Lake Storage</label><br>
+            <input type="radio" id="q7-a2" name="q7" value="Azure Databricks">
+            <label for="q7-a2">Azure Databricks</label><br>
+            <input type="radio" id="q7-a3" name="q7" value="Azure HDInsight">
+            <label for="q7-a3">Azure HDInsight</label><br>
+            <input type="radio" id="q7-a4" name="q7" value="Azure Synapse Analytics">
+            <label for="q7-a4">Azure Synapse Analytics</label><br>
+        </div>
+        
+        <div class="question" id="question8">
+            <p>8) Quelle caractéristique est associée au traitement par lots ?</p>
+            <input type="radio" id="q8-a1" name="q8" value="Le traitement par lots gère de petits jeux de données en fonction d’une fenêtre de temps.">
+            <label for="q8-a1">Le traitement par lots gère de petits jeux de données en fonction d’une fenêtre de temps.</label><br>
+            <input type="radio" id="q8-a2" name="q8" value="Le traitement par lots permet d’effectuer une analyse complexe.">
+            <label for="q8-a2">Le traitement par lots permet d’effectuer une analyse complexe.</label><br>
+            <input type="radio" id="q8-a3" name="q8" value="Le traitement par lots traite les événements individuels.">
+            <label for="q8-a3">Le traitement par lots traite les événements individuels.</label><br>
+            <input type="radio" id="q8-a4" name="q8" value="La latence est mesurée en secondes ou en millisecondes.">
+            <label for="q8-a4">La latence est mesurée en secondes ou en millisecondes.</label><br>
+        </div>
+        
+        <div class="question" id="question9">
+            <p>9) Quels sont les deux services qui peuvent être utilisés en tant que source d’un traitement de flux ? Chaque réponse correcte présente une solution complète.</p>
+            <input type="radio" id="q9-a1" name="q9" value="Azure Databricks">
+            <label for="q9-a1">Azure Databricks</label><br>
+            <input type="radio" id="q9-a2" name="q9" value="Azure Event Hubs">
+            <label for="q9-a2">Azure Event Hubs</label><br>
+            <input type="radio" id="q9-a3" name="q9" value="Azure IoT Hub">
+            <label for="q9-a3">Azure IoT Hub</label><br>
+            <input type="radio" id="q9-a4" name="q9" value="Azure SQL Database">
+            <label for="q9-a4">Azure SQL Database</label><br>
+        </div>
+        
+        <div class="question" id="question10">
+            <p>10) Dans une architecture de traitement de flux, que pouvez-vous utiliser pour conserver les résultats traités sous forme de fichiers ?</p>
+            <input type="radio" id="q10-a1" name="q10" value="Azure Data Lake Storage Gen2">
+            <label for="q10-a1">Azure Data Lake Storage Gen2</label><br>
+            <input type="radio" id="q10-a2" name="q10" value="Azure Databricks">
+            <label for="q10-a2">Azure Databricks</label><br>
+            <input type="radio" id="q10-a3" name="q10" value="Azure Event Hubs">
+            <label for="q10-a3">Azure Event Hubs</label><br>
+            <input type="radio" id="q10-a4" name="q10" value="Azure Synapse Analytics">
+            <label for="q10-a4">Azure Synapse Analytics</label><br>
+        </div><!-- Question 11 -->
+        <div class="question" id="question11">
+            <p>11) Quel service vous permet d’agréger des données dans une fenêtre de temps spécifique avant qu’elles ne soient écrites dans un lac de données ?</p>
+            <input type="radio" id="q11-a1" name="q11" value="Azure Cosmos DB">
+            <label for="q11-a1">Azure Cosmos DB</label><br>
+            <input type="radio" id="q11-a2" name="q11" value="Hubs d'événements Azure">
+            <label for="q11-a2">Hubs d'événements Azure</label><br>
+            <input type="radio" id="q11-a3" name="q11" value="Azure SQL Database">
+            <label for="q11-a3">Azure SQL Database</label><br>
+            <input type="radio" id="q11-a4" name="q11" value="Azure Stream Analytics">
+            <label for="q11-a4">Azure Stream Analytics</label><br>
+        </div>
+        
+        <!-- Question 12 -->
+        <div class="question" id="question12">
+            <p>12) Que devez-vous créer dans un modèle de données pour permettre aux utilisateurs de monter et descendre dans la hiérarchie d’un rapport ?</p>
+            <input type="radio" id="q12-a1" name="q12" value="un cube">
+            <label for="q12-a1">un cube</label><br>
+            <input type="radio" id="q12-a2" name="q12" value="une dimension">
+            <label for="q12-a2">une dimension</label><br>
+            <input type="radio" id="q12-a3" name="q12" value="une hiérarchie">
+            <label for="q12-a3">une hiérarchie</label><br>
+            <input type="radio" id="q12-a4" name="q12" value="une table de faits">
+            <label for="q12-a4">une table de faits</label><br>
+        </div>
+        
+<!-- Question 13 -->
+<!-- Question 13 -->
+<div class="question" id="question13">
+    <p>13) Quel élément de modèle de données représente les entités en fonction desquelles vous souhaitez agréger des mesures dans Microsoft Power BI ?</p>
+    <input type="radio" id="q13-a1" name="q13" value="dimensions">
+    <label for="q13-a1">dimensions</label><br>
+    <input type="radio" id="q13-a2" name="q13" value="facts">
+    <label for="q13-a2">facts</label><br>
+    <input type="radio" id="q13-a3" name="q13" value="clés">
+    <label for="q13-a3">clés</label><br>
+    <input type="radio" id="q13-a4" name="q13" value="relations">
+    <label for="q13-a4">relations</label><br>
+</div>
+
+<!-- Continue this structure for the remaining questions (question14 to question33) -->
+
+<!-- Question 14 -->
+<div class="question" id="question14">
+    <p>14) Quel type d’objet visuel dans Microsoft Power BI devez-vous utiliser pour afficher une seule valeur, par exemple le total des ventes ?</p>
+    <input type="radio" id="q14-a1" name="q14" value="graphique à barres">
+    <label for="q14-a1">graphique à barres</label><br>
+    <input type="radio" id="q14-a2" name="q14" value="carte">
+    <label for="q14-a2">carte</label><br>
+    <input type="radio" id="q14-a3" name="q14" value="Graphique à secteurs">
+    <label for="q14-a3">Graphique à secteurs</label><br>
+    <input type="radio" id="q14-a4" name="q14" value="table">
+    <label for="q14-a4">table</label><br>
+</div>
+
+<!-- Continue this structure for the remaining questions (question15 to question33) -->
+
+<!-- Question 15 -->
+<div class="question" id="question15">
+    <p>15) Quel type de structure de données vous permet de stocker les données dans un format à deux colonnes sans avoir besoin d’un système de gestion de base de données complexe ?</p>
+    <input type="radio" id="q15-a1" name="q15" value="base de données orientée document">
+    <label for="q15-a1">base de données orientée document</label><br>
+    <input type="radio" id="q15-a2" name="q15" value="base de données orientée graphe">
+    <label for="q15-a2">base de données orientée graphe</label><br>
+    <input type="radio" id="q15-a3" name="q15" value="magasin de paires clé-valeur">
+    <label for="q15-a3">magasin de paires clé-valeur</label><br>
+    <input type="radio" id="q15-a4" name="q15" value="base de données relationnelle">
+    <label for="q15-a4">base de données relationnelle</label><br>
+</div>
+
+<!-- Continue this structure for the remaining questions (question16 to question33) -->
+
+<!-- Question 16 -->
+<div class="question" id="question16">
+    <p>16) Quel service de données Azure vous permet de stocker des images, des fichiers PDF et des fichiers JSON statiques ?</p>
+    <input type="radio" id="q16-a1" name="q16" value="Azure Cosmos DB for Apache Gremlin">
+    <label for="q16-a1">Azure Cosmos DB for Apache Gremlin</label><br>
+    <input type="radio" id="q16-a2" name="q16" value="Stockage Blob Azure">
+    <label for="q16-a2">Stockage Blob Azure</label><br>
+    <input type="radio" id="q16-a3" name="q16" value="Azure SQL Database">
+    <label for="q16-a3">Azure SQL Database</label><br>
+    <input type="radio" id="q16-a4" name="q16" value="Stockage Table Azure">
+    <label for="q16-a4">Stockage Table Azure</label><br>
+</div>
+
+<!-- Continue this structure for the remaining questions (question17 to question33) -->
+
+<!-- Question 17 -->
+<div class="question" id="question17">
+    <p>17) Vous disposez de données stockées dans deux tables d’une base de données. Vous créez une relation entre les tables. De quel type de données disposez-vous ?</p>
+    <input type="radio" id="q17-a1" name="q17" value="Données semi-structurées">
+    <label for="q17-a1">Données semi-structurées</label><br>
+    <input type="radio" id="q17-a2" name="q17" value="Données structurées">
+    <label for="q17-a2">Données structurées</label><br>
+    <input type="radio" id="q17-a3" name="q17" value="Données non structurées">
+    <label for="q17-a3">Données non structurées</label><br>
+    <input type="radio" id="q17-a4" name="q17" value="Données multidimensionnelles">
+    <label for="q17-a4">Données multidimensionnelles</label><br>
+</div>
+
+<!-- Continue this structure for the remaining questions (question18 to question33) -->
+
+<!-- Question 18 -->
+<div class="question" id="question18">
+    <p>18) Quel composant Azure doit être utilisé pour garantir une haute disponibilité des machines virtuelles (VM) dans une région Azure spécifique ?</p>
+    <input type="radio" id="q18-a1" name="q18" value="Réseau virtuel">
+    <label for="q18-a1">Réseau virtuel</label><br>
+    <input type="radio" id="q18-a2" name="q18" value="Set de disponibilité">
+    <label for="q18-a2">Set de disponibilité</label><br>
+    <input type="radio" id="q18-a3" name="q18" value="Groupe de sécurité réseau">
+    <label for="q18-a3">Groupe de sécurité réseau</label><br>
+    <input type="radio" id="q18-a4" name="q18" value="Passerelle VPN Azure">
+    <label for="q18-a4">Passerelle VPN Azure</label><br>
+</div>
+
+<!-- Continue this structure for the remaining questions (question19 to question33) -->
+
+<!-- Question 19 -->
+<div class="question" id="question19">
+    <p>19) Quelle option de stockage Azure est optimale pour stocker des données relationnelles en tant que service avec des performances élevées ?</p>
+    <input type="radio" id="q19-a1" name="q19" value="Azure Table Storage">
+    <label for="q19-a1">Azure Table Storage</label><br>
+    <input type="radio" id="q19-a2" name="q19" value="Azure Blob Storage">
+    <label for="q19-a2">Azure Blob Storage</label><br>
+    <input type="radio" id="q19-a3" name="q19" value="Azure Queue Storage">
+    <label for="q19-a3">Azure Queue Storage</label><br>
+    <input type="radio" id="q19-a4" name="q19" value="Azure SQL Database">
+    <label for="q19-a4">Azure SQL Database</label><br>
+</div>
+
+<!-- Continue this structure for the remaining questions (question20 to question33) -->
+
+<!-- Question 20 -->
+<div class="question" id="question20">
+    <p>20) Quel service Azure permet l’orchestration des workflows, la gestion des états et l’automatisation des tâches ?</p>
+    <input type="radio" id="q20-a1" name="q20" value="Azure Logic Apps">
+    <label for="q20-a1">Azure Logic Apps</label><br>
+    <input type="radio" id="q20-a2" name="q20" value="Azure Functions">
+    <label for="q20-a2">Azure Functions</label><br>
+    <input type="radio" id="q20-a3" name="q20" value="Azure Event Grid">
+    <label for="q20-a3">Azure Event Grid</label><br>
+    <input type="radio" id="q20-a4" name="q20" value="Azure Service Bus">
+    <label for="q20-a4">Azure Service Bus</label><br>
+</div>
+
+<!-- Continue this structure for the remaining questions (question21 to question33) -->
+
+<!-- Question 21 -->
+<div class="question" id="question21">
+    <p>21) Quelle option de stockage Azure est optimale pour stocker des données relationnelles en tant que service avec des performances élevées ?</p>
+    <input type="radio" id="q21-a1" name="q21" value="Azure Table Storage">
+    <label for="q21-a1">Azure Table Storage</label><br>
+    <input type="radio" id="q21-a2" name="q21" value="Azure Blob Storage">
+    <label for="q21-a2">Azure Blob Storage</label><br>
+    <input type="radio" id="q21-a3" name="q21" value="Azure Queue Storage">
+    <label for="q21-a3">Azure Queue Storage</label><br>
+    <input type="radio" id="q21-a4" name="q21" value="Azure SQL Database">
+    <label for="q21-a4">Azure SQL Database</label><br>
+</div>
+
+<!-- Continue this structure for the remaining questions (question22 to question33) -->
+
+<!-- Question 22 -->
+<div class="question" id="question22">
+    <p>22) Quelle option de stockage Azure est optimale pour stocker des données non structurées comme des images, des vidéos et des fichiers audio ?</p>
+    <input type="radio" id="q22-a1" name="q22" value="Azure Blob Storage">
+    <label for="q22-a1">Azure Blob Storage</label><br>
+    <input type="radio" id="q22-a2" name="q22" value="Azure Table Storage">
+    <label for="q22-a2">Azure Table Storage</label><br>
+    <input type="radio" id="q22-a3" name="q22" value="Azure Queue Storage">
+    <label for="q22-a3">Azure Queue Storage</label><br>
+    <input type="radio" id="q22-a4" name="q22" value="Azure File Storage">
+    <label for="q22-a4">Azure File Storage</label><br>
+</div>
+<!-- Question 23 -->
+<div class="question" id="question23">
+    <p>23) Quels sont les deux attributs caractéristiques d’une charge de travail de données transactionnelles ? Chaque réponse correcte présente une solution complète.</p>
+    <input type="checkbox" id="q23-a1" name="q23-a1" value="hautement dénormalisée">
+    <label for="q23-a1">hautement dénormalisée</label><br>
+    <input type="checkbox" id="q23-a2" name="q23-a2" value="hautement normalisée">
+    <label for="q23-a2">hautement normalisée</label><br>
+    <input type="checkbox" id="q23-a3" name="q23-a3" value="optimisées pour les opérations CRUD (création, lecture, mise à jour et suppression)">
+    <label for="q23-a3">optimisées pour les opérations CRUD (création, lecture, mise à jour et suppression)</label><br>
+    <input type="checkbox" id="q23-a4" name="q23-a4" value="optimisées pour les opérations de lecture">
+    <label for="q23-a4">optimisées pour les opérations de lecture</label><br>
+</div>
+<div class="question" id="question24">
+    <p>24) Quels sont les deux attributs caractéristiques d’une charge de travail de données analytiques ? Chaque réponse correcte présente une solution complète.</p>
+    <input type="checkbox" id="q24-a1" name="q24-a1" value="hautement dénormalisée">
+    <label for="q24-a1">hautement dénormalisée</label><br>
+    <input type="checkbox" id="q24-a2" name="q24-a2" value="hautement normalisée">
+    <label for="q24-a2">hautement normalisée</label><br>
+    <input type="checkbox" id="q24-a3" name="q24-a3" value="optimisées pour les opérations CRUD (création, lecture, mise à jour et suppression)">
+    <label for="q24-a3">optimisées pour les opérations CRUD</label><br>
+    <input type="checkbox" id="q24-a4" name="q24-a4" value="optimisées pour les opérations de lecture">
+    <label for="q24-a4">optimisées pour les opérations de lecture</label><br>
+</div>
+<!-- Question 25 -->
+<div class="question" id="question25">
+    <p>25) Quel type de charge de travail de données est optimisé pour les mises à jour et repose sur les relations entre les entités pour mettre en corrélation les données ?</p>
+    <input type="radio" id="q25-a1" name="q25" value="le cas d’usage">
+    <label for="q25-a1">le cas d’usage</label><br>
+    <input type="radio" id="q25-a2" name="q25" value="graph">
+    <label for="q25-a2">graph</label><br>
+    <input type="radio" id="q25-a3" name="q25" value="série chronologique">
+    <label for="q25-a3">série chronologique</label><br>
+    <input type="radio" id="q25-a4" name="q25" value="transactional">
+    <label for="q25-a4">transactional</label><br>
+</div>
+
+<!-- Question 26 -->
+<div class="question" id="question26">
+    <p>26) Quelle est la fonction principale d’une personne responsable de la résolution des problèmes de performances des index, du provisionnement de l’accès aux bases de données et de la sauvegarde des bases de données ?</p>
+    <input type="radio" id="q26-a1" name="q26" value="administrateur de base de données">
+    <label for="q26-a1">administrateur de base de données</label><br>
+    <input type="radio" id="q26-a2" name="q26" value="analyste de base de données">
+    <label for="q26-a2">analyste de base de données</label><br>
+    <input type="radio" id="q26-a3" name="q26" value="ingénieur de base de données">
+    <label for="q26-a3">ingénieur de base de données</label><br>
+    <input type="radio" id="q26-a4" name="q26" value="d'un utilisateur de base de données">
+    <label for="q26-a4">d'un utilisateur de base de données</label><br>
+</div>
+
+<!-- Question 27 -->
+<div class="question" id="question27">
+    <p>27) Quelle est la fonction principale d’une personne responsable de la création de rapports à partir d’une base de données et de l’utilisation des cubes OLAP ?</p>
+    <input type="radio" id="q27-a1" name="q27" value="administrateur de base de données">
+    <label for="q27-a1">administrateur de base de données</label><br>
+    <input type="radio" id="q27-a2" name="q27" value="analyste de base de données">
+    <label for="q27-a2">analyste de base de données</label><br>
+    <input type="radio" id="q27-a3" name="q27" value="ingénieur de base de données">
+    <label for="q27-a3">ingénieur de base de données</label><br>
+    <input type="radio" id="q27-a4" name="q27" value="d'un utilisateur de base de données">
+    <label for="q27-a4">d'un utilisateur de base de données</label><br>
+</div>
+
+<!-- Question 29 -->
+<div class="question" id="question29">
+    <p>29) Quel type de solution du service Stockage Azure représente l’option la moins coûteuse pour stocker et modifier des fichiers image ?</p>
+    <input type="radio" id="q29-a1" name="q29" value="objets blob d’ajout au niveau archive">
+    <label for="q29-a1">objets blob d’ajout au niveau archive</label><br>
+    <input type="radio" id="q29-a2" name="q29" value="objets blob d’ajout au niveau froid">
+    <label for="q29-a2">objets blob d’ajout au niveau froid</label><br>
+    <input type="radio" id="q29-a3" name="q29" value="objets blob de blocs au niveau archive">
+    <label for="q29-a3">objets blob de blocs au niveau archive</label><br>
+    <input type="radio" id="q29-a4" name="q29" value="objets blob de blocs au niveau froid">
+    <label for="q29-a4">objets blob de blocs au niveau froid</label><br>
+</div>
+
+<!-- Question 30 -->
+<div class="question" id="question30">
+    <p>30) Quel type de solution du service Stockage Azure permet de stocker de grandes quantités de données qui doivent être traitées par des services tels qu’Azure Databricks, Azure Synapse Analytics et Azure HDInsight ?</p>
+    <input type="radio" id="q30-a1" name="q30" value="Azure Data Lake Storage Gen2">
+    <label for="q30-a1">Azure Data Lake Storage Gen2</label><br>
+    <input type="radio" id="q30-a2" name="q30" value="Azure Files">
+    <label for="q30-a2">Azure Files</label><br>
+    <input type="radio" id="q30-a3" name="q30" value="objets blob de pages Stockage Azure">
+    <label for="q30-a3">objets blob de pages Stockage Azure</label><br>
+    <input type="radio" id="q30-a4" name="q30" value="Stockage Table Azure">
+    <label for="q30-a4">Stockage Table Azure</label><br>
+</div>
+
+<!-- Question 31 -->
+<div class="question" id="question31">
+    <p>31) Quel type de solution du service Stockage Azure permet de stocker de grandes quantités de fichiers à partager avec des machines virtuelles à l’aide du protocole SMB ?</p>
+    <input type="radio" id="q31-a1" name="q31" value="Azure Data Lake Storage Gen2">
+    <label for="q31-a1">Azure Data Lake Storage Gen2</label><br>
+    <input type="radio" id="q31-a2" name="q31" value="Azure Files">
+    <label for="q31-a2">Azure Files</label><br>
+    <input type="radio" id="q31-a3" name="q31" value="objets blob de pages Stockage Azure">
+    <label for="q31-a3">objets blob de pages Stockage Azure</label><br>
+    <input type="radio" id="q31-a4" name="q31" value="Stockage Table Azure">
+    <label for="q31-a4">Stockage Table Azure</label><br>
+</div><!-- Question 33 -->
+<!-- Question 32 -->
+<div class="question" id="question32">
+    <p>32) Quel type de solution du service Stockage Azure permet de stocker des paires clé-valeur regroupées dans des partitions ?</p>
+    <input type="radio" id="q32-a1" name="q32" value="Azure Data Lake Storage Gen2">
+    <label for="q32-a1">Azure Data Lake Storage Gen2</label><br>
+    <input type="radio" id="q32-a2" name="q32" value="Azure Files">
+    <label for="q32-a2">Azure Files</label><br>
+    <input type="radio" id="q32-a3" name="q32" value="objets blob de pages Stockage Azure">
+    <label for="q32-a3">objets blob de pages Stockage Azure</label><br>
+    <input type="radio" id="q32-a4" name="q32" value="Stockage Table Azure">
+    <label for="q32-a4">Stockage Table Azure</label><br>
+</div>
+
+
+<!-- Question 33 -->
+<div class="question" id="question33">
+    <p>33) Quelles sont les deux solutions de stockage qui peuvent être montées dans Azure Synapse Analytics, et utilisées pour traiter de grands volumes de données ? Chaque réponse correcte présente une solution complète.</p>
+    <input type="checkbox" id="q33-a1" name="q33-a1" value="Stockage Blob Azure">
+    <label for="q33-a1">Stockage Blob Azure</label><br>
+    <input type="checkbox" id="q33-a2" name="q33-a2" value="Azure Data Lake Storage">
+    <label for="q33-a2">Azure Data Lake Storage</label><br>
+    <input type="checkbox" id="q33-a3" name="q33-a3" value="Azure Files">
+    <label for="q33-a3">Azure Files</label><br>
+    <input type="checkbox" id="q33-a4" name="q33-a4" value="Stockage Table Azure">
+    <label for="q33-a4">Stockage Table Azure</label><br>
+</div>
+<!-- Question 34 -->
+<div class="question" id="question34">
+    <p>34) Quel type d’objet blob devez-vous utiliser pour stocker les blocs de données ajoutés fréquemment à un fichier, mais qui ne peuvent pas être supprimés ?</p>
+    <input type="radio" id="q34-a1" name="q34" value="append">
+    <label for="q34-a1">append</label><br>
+    <input type="radio" id="q34-a2" name="q34" value="block">
+    <label for="q34-a2">block</label><br>
+    <input type="radio" id="q34-a3" name="q34" value="page">
+    <label for="q34-a3">page</label><br>
+</div>
+
+<!-- Question 35 -->
+<div class="question" id="question35">
+    <p>35) Quelle solution de stockage devez-vous utiliser pour stocker des documents non structurés, des bases de données orientées graphes et des paires clé-valeur ?</p>
+    <input type="radio" id="q35-a1" name="q35" value="Azure Cosmos DB">
+    <label for="q35-a1">Azure Cosmos DB</label><br>
+    <input type="radio" id="q35-a2" name="q35" value="Azure Files">
+    <label for="q35-a2">Azure Files</label><br>
+    <input type="radio" id="q35-a3" name="q35" value="Azure SQL">
+    <label for="q35-a3">Azure SQL</label><br>
+    <input type="radio" id="q35-a4" name="q35" value="Stockage Table Azure">
+    <label for="q35-a4">Stockage Table Azure</label><br>
+</div>
+
+<!-- Question 36 -->
+<div class="question" id="question36">
+    <p>36) Quelle API Azure Cosmos DB est interrogée à l’aide d’une syntaxe basée sur SQL ?</p>
+    <input type="radio" id="q36-a1" name="q36" value="Apache Cassandra">
+    <label for="q36-a1">Apache Cassandra</label><br>
+    <input type="radio" id="q36-a2" name="q36" value="Apache Gremlin">
+    <label for="q36-a2">Apache Gremlin</label><br>
+    <input type="radio" id="q36-a3" name="q36" value="MongoDB">
+    <label for="q36-a3">MongoDB</label><br>
+    <input type="radio" id="q36-a4" name="q36" value="Table">
+    <label for="q36-a4">Table</label><br>
+</div>
+
+<!-- Question 37 -->
+<div class="question" id="question37">
+    <p>37) Quelle solution de stockage vous permet d’agréger les données stockées dans des fichiers JSON pour les utiliser dans des rapports analytiques sans effort de développement supplémentaire ?</p>
+    <input type="radio" id="q37-a1" name="q37" value="Stockage Blob Azure">
+    <label for="q37-a1">Stockage Blob Azure</label><br>
+    <input type="radio" id="q37-a2" name="q37" value="Azure Cosmos DB">
+    <label for="q37-a2">Azure Cosmos DB</label><br>
+    <input type="radio" id="q37-a3" name="q37" value="Azure Data Lake Storage">
+    <label for="q37-a3">Azure Data Lake Storage</label><br>
+    <input type="radio" id="q37-a4" name="q37" value="Azure SQL Database">
+    <label for="q37-a4">Azure SQL Database</label><br>
+</div>
+
+<!-- Question 38 -->
+<div class="question" id="question38">
+    <p>38) Quelle API Azure Cosmos DB vous permet d’utiliser des vertex et des arêtes ?</p>
+    <input type="radio" id="q38-a1" name="q38" value="Apache Cassandra">
+    <label for="q38-a1">Apache Cassandra</label><br>
+    <input type="radio" id="q38-a2" name="q38" value="Apache Gremlin">
+    <label for="q38-a2">Apache Gremlin</label><br>
+    <input type="radio" id="q38-a3" name="q38" value="NoSQL">
+    <label for="q38-a3">NoSQL</label><br>
+    <input type="radio" id="q38-a4" name="q38" value="Table">
+    <label for="q38-a4">Table</label><br>
+</div>
+
+<!-- Question 39 -->
+<div class="question" id="question39">
+    <p>39) Quelles sont les deux clés nécessaires pour créer une relation un-à-plusieurs entre deux tables dans une base de données relationnelle ? Chaque réponse correcte présente une partie de la solution.</p>
+    <input type="checkbox" id="q39-a1" name="q39-a1" value="une clé étrangère">
+    <label for="q39-a1">une clé étrangère</label><br>
+    <input type="checkbox" id="q39-a2" name="q39-a2" value="une clé primaire">
+    <label for="q39-a2">une clé primaire</label><br>
+    <input type="checkbox" id="q39-a3" name="q39-a3" value="une clé unique">
+    <label for="q39-a3">une clé unique</label><br>
+    <input type="checkbox" id="q39-a4" name="q39-a4" value="une clé d’index">
+    <label for="q39-a4">une clé d’index</label><br>
+</div>
+
+<!-- Question 40 -->
+<div class="question" id="question40">
+    <p>40) Quels sont les deux avantages de la normalisation par rapport à l’absence de normalisation dans une base de données relationnelle ? Chaque réponse correcte présente une solution complète.</p>
+    <input type="checkbox" id="q40-a1" name="q40-a1" value="permet de stocker les données non structurées">
+    <label for="q40-a1">permet de stocker les données non structurées</label><br>
+    <input type="checkbox" id="q40-a2" name="q40-a2" value="optimise les lectures complexes">
+    <label for="q40-a2">optimise les lectures complexes</label><br>
+    <input type="checkbox" id="q40-a3" name="q40-a3" value="optimise les mises à jour">
+    <label for="q40-a3">optimise les mises à jour</label><br>
+    <input type="checkbox" id="q40-a4" name="q40-a4" value="utilise moins d’espace de stockage">
+    <label for="q40-a4">utilise moins d’espace de stockage</label><br>
+</div>
+<!-- Question 41 -->
+<div class="question" id="question41">
+    <p>41) Quelle opération SQL permet de combiner le contenu de deux tables en fonction d’une colonne partagée ?</p>
+    <input type="radio" id="q41-a1" name="q41" value="HAVING">
+    <label for="q41-a1">HAVING</label><br>
+    <input type="radio" id="q41-a2" name="q41" value="INTERSECT">
+    <label for="q41-a2">INTERSECT</label><br>
+    <input type="radio" id="q41-a3" name="q41" value="JOIN">
+    <label for="q41-a3">JOIN</label><br>
+    <input type="radio" id="q41-a4" name="q41" value="UNION">
+    <label for="q41-a4">UNION</label><br>
+</div>
+
+<!-- Question 42 -->
+<div class="question" id="question42">
+    <p>42) Sélectionnez la réponse qui termine correctement la phrase. [Choix de réponse] est un processus qui permet de réduire la duplication de données dans une base de données, et de garantir l’intégrité des données.</p>
+    <input type="radio" id="q42-a1" name="q42" value="Indexation">
+    <label for="q42-a1">Indexation</label><br>
+    <input type="radio" id="q42-a2" name="q42" value="Normalisation">
+    <label for="q42-a2">Normalisation</label><br>
+    <input type="radio" id="q42-a3" name="q42" value="Projection">
+    <label for="q42-a3">Projection</label><br>
+    <input type="radio" id="q42-a4" name="q42" value="Refactorisation">
+    <label for="q42-a4">Refactorisation</label><br>
+</div>
+
+<!-- Question 43 -->
+<div class="question" id="question43">
+    <p>43) Que devez-vous créer pour améliorer les performances d’une requête accédant à une table qui contient des millions de lignes ?</p>
+    <input type="radio" id="q43-a1" name="q43" value="une fonction">
+    <label for="q43-a1">une fonction</label><br>
+    <input type="radio" id="q43-a2" name="q43" value="Une procédure stockée">
+    <label for="q43-a2">Une procédure stockée</label><br>
+   
+
+<!-- Question 44 -->
+<div class="question" id="question44">
+    <p>44) Vous avez une requête complexe qui sélectionne les données de plusieurs tables. Quels sont les trois objets de base de données qui vous permettent de réutiliser la définition de requête ? Chaque réponse correcte présente une solution complète.</p>
+    <input type="checkbox" id="q44-a1" name="q44-a1" value="une fonction">
+    <label for="q44-a1">une fonction</label><br>
+    <input type="checkbox" id="q44-a2" name="q44-a2" value="Une procédure stockée">
+    <label for="q44-a2">Une procédure stockée</label><br>
+    <input type="checkbox" id="q44-a3" name="q44-a3" value="une table temporaire">
+    <label for="q44-a3">une table temporaire</label><br>
+    <input type="checkbox" id="q44-a4" name="q44-a4" value="une vue">
+    <label for="q44-a4">une vue</label><br>
+</div>
+
+<!-- Question 45 -->
+<div class="question" id="question45">
+    <p>45) Quel est le service managé et serverless, qui évite d’utiliser des licences Windows Server, et qui permet à chaque charge de travail d’avoir sa propre instance du service utilisé ?</p>
+    <input type="radio" id="q45-a1" name="q45" value="Azure SQL Database">
+    <label for="q45-a1">Azure SQL Database</label><br>
+    <input type="radio" id="q45-a2" name="q45" value="Azure SQL Managed Instance">
+    <label for="q45-a2">Azure SQL Managed Instance</label><br>
+    <input type="radio" id="q45-a3" name="q45" value="SQL Server sur les machines virtuelles Azure exécutant Linux">
+    <label for="q45-a3">SQL Server sur les machines virtuelles Azure exécutant Linux</label><br>
+    <input type="radio" id="q45-a4" name="q45" value="SQL Server sur les machines virtuelles Azure exécutant Windows Server">
+    <label for="q45-a4">SQL Server sur les machines virtuelles Azure exécutant Windows Server</label><br>
+</div>
+<!-- Question 46 -->
+<div class="question" id="question46">
+    <p>46) Qu’est-ce qui est complètement managé et peut accueillir une base de données migrée sans nécessiter de changements dans celle-ci ?</p>
+    <input type="radio" id="q46-a1" name="q46" value="Azure SQL Database">
+    <label for="q46-a1">Azure SQL Database</label><br>
+    <input type="radio" id="q46-a2" name="q46" value="Azure SQL Managed Instance">
+    <label for="q46-a2">Azure SQL Managed Instance</label><br>
+    <input type="radio" id="q46-a3" name="q46" value="SQL Server sur les machines virtuelles Azure exécutant Linux">
+    <label for="q46-a3">SQL Server sur les machines virtuelles Azure exécutant Linux</label><br>
+    <input type="radio" id="q46-a4" name="q46" value="SQL Server sur les machines virtuelles Azure exécutant Windows Server">
+    <label for="q46-a4">SQL Server sur les machines virtuelles Azure exécutant Windows Server</label><br>
+</div>
+<!-- Question 47 -->
+<div class="question" id="question47">
+    <p>47) Quel service de données fournit une base de données complètement managée avec près de 100 % de parité des fonctionnalités par rapport à Microsoft SQL Server ?</p>
+    <input type="radio" id="q47-a1" name="q47" value="Azure SQL Database">
+    <label for="q47-a1">Azure SQL Database</label><br>
+    <input type="radio" id="q47-a2" name="q47" value="Azure SQL Managed Instance">
+    <label for="q47-a2">Azure SQL Managed Instance</label><br>
+    <input type="radio" id="q47-a3" name="q47" value="Azure Synapse Analytics">
+    <label for="q47-a3">Azure Synapse Analytics</label><br>
+    <input type="radio" id="q47-a4" name="q47" value="SQL Server sur les machines virtuelles Azure">
+    <label for="q47-a4">SQL Server sur les machines virtuelles Azure</label><br>
+</div>
+<!-- Question 48 -->
+<div class="question" id="question48">
+    <p>48) Quelles sont les trois bases de données open source disponibles en tant que solution PaaS (platform as a service) dans Azure ? Chaque réponse correcte présente une solution complète.</p>
+    <input type="checkbox" id="q48-a1" name="q48-a1" value="CockroachDB">
+    <label for="q48-a1">CockroachDB</label><br>
+    <input type="checkbox" id="q48-a2" name="q48-a2" value="CouchDB">
+    <label for="q48-a2">CouchDB</label><br>
+    <input type="checkbox" id="q48-a3" name="q48-a3" value="MariaDB">
+    <label for="q48-a3">MariaDB</label><br>
+    <input type="checkbox" id="q48-a4" name="q48-a4" value="MySQL">
+    <label for="q48-a4">MySQL</label><br>
+    <input type="checkbox" id="q48-a5" name="q48-a5" value="PostgreSQL">
+    <label for="q48-a5">PostgreSQL</label><br>
+</div>
+
+<!-- Question 49 -->
+<div class="question" id="question49">
+    <p>49) Quel service de données vous permet d’utiliser toutes les fonctionnalités de Microsoft SQL Server dans le cloud ?</p>
+    <input type="radio" id="q49-a1" name="q49" value="Azure SQL Database">
+    <label for="q49-a1">Azure SQL Database</label><br>
+    <input type="radio" id="q49-a2" name="q49" value="Azure SQL Managed Instance">
+    <label for="q49-a2">Azure SQL Managed Instance</label><br>
+    <input type="radio" id="q49-a3" name="q49" value="SQL Server sur les machines virtuelles Azure exécutant Linux">
+    <label for="q49-a3">SQL Server sur les machines virtuelles Azure exécutant Linux</label><br>
+    <input type="radio" id="q49-a4" name="q49" value="SQL Server sur les machines virtuelles Azure exécutant Windows Server">
+    <label for="q49-a4">SQL Server sur les machines virtuelles Azure exécutant Windows Server</label><br>
+</div>
+
+<!-- Question 50 -->
+<div class="question" id="question50">
+    <p>50) Quelle base de données open source a une prise en charge intégrée des données temporelles ?</p>
+    <input type="radio" id="q50-a1" name="q50" value="MariaDB">
+    <label for="q50-a1">MariaDB</label><br>
+    <input type="radio" id="q50-a2" name="q50" value="MySQL">
+    <label for="q50-a2">MySQL</label><br>
+    <input type="radio" id="q50-a3" name="q50" value="Base de données Oracle">
+    <label for="q50-a3">Base de données Oracle</label><br>
+    <input type="radio" id="q50-a4" name="q50" value="PostgreSQL">
+    <label for="q50-a4">PostgreSQL</label><br>
+</div>
+
+<!-- Question 51 -->
+<div class="question" id="question51">
+    <p>51) Quel niveau d’accès de Stockage Blob Azure devez-vous choisir pour les données qui sont utilisées une fois par an, et dont l’accès peut prendre plus d’une heure ?</p>
+    <input type="radio" id="q51-a1" name="q51" value="Archive">
+    <label for="q51-a1">Archive</label><br>
+    <input type="radio" id="q51-a2" name="q51" value="Froid">
+    <label for="q51-a2">Froid</label><br>
+    <input type="radio" id="q51-a3" name="q51" value="Chaud">
+    <label for="q51-a3">Chaud</label><br>
+</div>
+
+<!-- Question 52 -->
+<!-- Question 52 -->
+<div class="question" id="question52">
+    <p>52) Quelles sont les deux caractéristiques de Stockage Table Azure ? Chaque réponse correcte présente une solution complète.</p>
+    <input type="checkbox" id="q52-a1" name="q52-a1" value="Chaque valeur RowKey est unique dans une table.">
+    <label for="q52-a1">Chaque valeur RowKey est unique dans une table.</label><br>
+    <input type="checkbox" id="q52-a2" name="q52-a2" value="Chaque valeur RowKey est unique dans une partition de table.">
+    <label for="q52-a2">Chaque valeur RowKey est unique dans une partition de table.</label><br>
+    <input type="checkbox" id="q52-a3" name="q52-a3" value="Les éléments d’une même partition sont stockés dans un ordre RowKey.">
+    <label for="q52-a3">Les éléments d’une même partition sont stockés dans un ordre RowKey.</label><br>
+    <input type="checkbox" id="q52-a4" name="q52-a4" value="Les tables utilisent des index pour accélérer les requêtes.">
+    <label for="q52-a4">Les tables utilisent des index pour accélérer les requêtes.</label><br>
+</div>
+<!-- Question 53 -->
+<div class="question" id="question53">
+    <p>53) Vous devez partager un rapport que vous avez créé dans Microsoft Power BI Desktop avec d’autres utilisateurs. Que devez-vous faire en premier ?</p>
+    <input type="radio" id="q53-a1" name="q53" value="Créez un espace de travail.">
+    <label for="q53-a1">Créez un espace de travail.</label><br>
+    <input type="radio" id="q53-a2" name="q53" value="Créez une application.">
+    <label for="q53-a2">Créez une application.</label><br>
+    <input type="radio" id="q53-a3" name="q53" value="Ouvrir le rapport dans un navigateur web.">
+    <label for="q53-a3">Ouvrir le rapport dans un navigateur web.</label><br>
+    <input type="radio" id="q53-a4" name="q53" value="Publiez le rapport dans le service Power BI.">
+    <label for="q53-a4">Publiez le rapport dans le service Power BI.</label><br>
+</div>
+
+<!-- Question 54 -->
+<div class="question" id="question54">
+    <p>54) Dans une base de données relationnelle, pour quel type d’objet devez-vous configurer un type de données ?</p>
+    <input type="radio" id="q54-a1" name="q54" value="Columns.">
+    <label for="q54-a1">Columns.</label><br>
+    <input type="radio" id="q54-a2" name="q54" value="Fields.">
+    <label for="q54-a2">Fields.</label><br>
+    <input type="radio" id="q54-a3" name="q54" value="Relations.">
+    <label for="q54-a3">Relations.</label><br>
+    <input type="radio" id="q54-a4" name="q54" value="Rows.">
+    <label for="q54-a4">Rows.</label><br>
+</div>
+
+<div class="question" id="question55">
+    <p>55) Quels sont les deux avantages de la normalisation par rapport à l’absence de normalisation dans une base de données relationnelle ? Chaque réponse correcte présente une solution complète.</p>
+    <input type="checkbox" id="q55-a1" name="q55-a1" value="permet de stocker les données non structurées">
+    <label for="q55-a1">permet de stocker les données non structurées</label><br>
+    <input type="checkbox" id="q55-a2" name="q55-a2" value="optimise les lectures complexes">
+    <label for="q55-a2">optimise les lectures complexes</label><br>
+    <input type="checkbox" id="q55-a3" name="q55-a3" value="optimise les mises à jour">
+    <label for="q55-a3">optimise les mises à jour</label><br>
+    <input type="checkbox" id="q55-a4" name="q55-a4" value="utilise moins d’espace de stockage">
+    <label for="q55-a4">utilise moins d’espace de stockage</label><br>
+</div>
+<!-- Question 56 -->
+<div class="question" id="question56">
+    <p>56) Quelles sont les deux instructions DML utilisées pour modifier les données existantes dans une table ? Chaque réponse correcte présente une solution complète.</p>
+    <input type="checkbox" id="q56-a1" name="q56-a1" value="INSERT">
+    <label for="q56-a1">INSERT</label><br>
+    <input type="checkbox" id="q56-a2" name="q56-a2" value="MERGE">
+    <label for="q56-a2">MERGE</label><br>
+    <input type="checkbox" id="q56-a3" name="q56-a3" value="SELECT">
+    <label for="q56-a3">SELECT</label><br>
+    <input type="checkbox" id="q56-a4" name="q56-a4" value="UPDATE">
+    <label for="q56-a4">UPDATE</label><br>
+</div>
+
+<!-- Question 57 -->
+<div class="question" id="question57">
+    <p>57) Quelles sont les trois instructions qui décrivent avec précision les propriétés d’une table dans une base de données relationnelle ? Chaque réponse correcte présente une solution complète.</p>
+    <input type="checkbox" id="q57-a1" name="q57-a1" value="Toutes les colonnes doivent contenir des valeurs.">
+    <label for="q57-a1">Toutes les colonnes doivent contenir des valeurs.</label><br>
+    <input type="checkbox" id="q57-a2" name="q57-a2" value="Une table peut avoir une clé primaire basée sur plusieurs colonnes.">
+    <label for="q57-a2">Une table peut avoir une clé primaire basée sur plusieurs colonnes.</label><br>
+    <input type="checkbox" id="q57-a3" name="q57-a3" value="Chaque colonne doit avoir un type de données.">
+    <label for="q57-a3">Chaque colonne doit avoir un type de données.</label><br>
+    <input type="checkbox" id="q57-a4" name="q57-a4" value="Chaque ligne d’une table a le même nombre de colonnes.">
+    <label for="q57-a4">Chaque ligne d’une table a le même nombre de colonnes.</label><br>
+</div>
+
+
+
+<!-- Question 58 -->
+<div class="question" id="question58">
+    <p>58) Quelle clause SQL permet de copier toutes les lignes d’une table vers une nouvelle table ? Sélectionnez une seule réponse.</p>
+    <input type="radio" id="q58-a1" name="q58" value="INSERT – VALUES">
+    <label for="q58-a1">INSERT – VALUES</label><br>
+    <input type="radio" id="q58-a2" name="q58" value="SELECT – HAVING">
+    <label for="q58-a2">SELECT – HAVING</label><br>
+    <input type="radio" id="q58-a3" name="q58" value="SELECT – INTO">
+    <label for="q58-a3">SELECT – INTO</label><br>
+    <input type="radio" id="q58-a4" name="q58" value="UPDATE">
+    <label for="q58-a4">UPDATE</label><br>
+</div>
+
+<!-- Question 59 -->
+<div class="question" id="question59">
+    <p>59) Dans une base de données relationnelle, que pouvez-vous utiliser pour créer une table virtuelle à partir des résultats d’une instruction SELECT ?</p>
+    <input type="radio" id="q59-a1" name="q59" value="Une relation">
+    <label for="q59-a1">Une relation</label><br>
+    <input type="radio" id="q59-a2" name="q59" value="Une procédure stockée">
+    <label for="q59-a2">Une procédure stockée</label><br>
+    <input type="radio" id="q59-a3" name="q59" value="Une vue">
+    <label for="q59-a3">Une vue</label><br>
+    <input type="radio" id="q59-a4" name="q59" value="Un index">
+    <label for="q59-a4">Un index</label><br>
+</div>
+
+<!-- Question 60 -->
+<div class="question" id="question60">
+    <p>60) Quel moteur SQL est optimisé pour les scénarios IoT ?</p>
+    <input type="radio" id="q60-a1" name="q60" value="Azure SQL Database">
+    <label for="q60-a1">Azure SQL Database</label><br>
+    <input type="radio" id="q60-a2" name="q60" value="Azure SQL Edge">
+    <label for="q60-a2">Azure SQL Edge</label><br>
+    <input type="radio" id="q60-a3" name="q60" value="Azure SQL Managed Instance">
+    <label for="q60-a3">Azure SQL Managed Instance</label><br>
+    <input type="radio" id="q60-a4" name="q60" value="SQL Server sur les machines virtuelles Azure">
+    <label for="q60-a4">SQL Server sur les machines virtuelles Azure</label><br>
+</div>
+
+<!-- Question 61 -->
+<div class="question" id="question61">
+    <p>61) Quel type de solution du service Stockage Azure est utilisé pour les disques VHD, et est optimisé pour les opérations de lecture et d’écriture aléatoires ?</p>
+    <input type="radio" id="q61-a1" name="q61" value="objets blob d’ajout">
+    <label for="q61-a1">objets blob d’ajout</label><br>
+    <input type="radio" id="q61-a2" name="q61" value="Azure Files">
+    <label for="q61-a2">Azure Files</label><br>
+    <input type="radio" id="q61-a3" name="q61" value="blob de blocs">
+    <label for="q61-a3">blob de blocs</label><br>
+    <input type="radio" id="q61-a4" name="q61" value="objet blob de pages">
+    <label for="q61-a4">objet blob de pages</label><br>
+</div>
+
+        <!-- Submit button -->
+        <button onclick="calculateScore()">Soumettre</button>
+
+    </div>
+
+    <!-- Result Section -->
+    <div id="result-container" style="display: none;">
+        <h2>Résultat du test</h2>
+        <p id="score">Votre score : <span id="score-value">0</span> sur 57</p>
+    </div>
+
+    <!-- JavaScript to calculate the score -->
+    <script>
+       function calculateScore() {
+    const correctAnswers = {
+        "q1": "Azure HDInsight",
+    "q2": "Azure Databricks",
+    "q3": "Azure Data Factory",
+    "q4": ["Azure Data Factory", "Azure Synapse Analytics"],
+    "q5": ["Azure Data Factory", "Azure Synapse Analytics"],
+    "q6": "un jeu de données",
+    "q7": "Azure Synapse Analytics",
+    "q8": "Les données sont traitées en lots",
+    "q9": ["Azure Event Hubs", "Azure IoT Hub"],
+    "q10": "Azure Data Lake Storage Gen2",
+    "q11": "Azure Stream Analytics",
+    "q12": "une dimension",
+    "q13": "dimensions",
+    "q14": "graphique à barres",
+    "q15": "base de données orientée document",
+    "q16": "Stockage Blob Azure",
+    "q17": "données structurées",
+    "q18": "données semi-structurées",
+    "q19": "données non structurées",
+    "q20": "Azure Cosmos DB for Apache Gremlin",
+    "q21": "Azure Cosmos DB for Apache Spark",
+    "q22": "famille de colonnes",
+    "q23": ["hautement normalisée", "optimisées pour les opérations CRUD"],
+    "q24": ["hautement dénormalisée", "optimisées pour les opérations de lecture"],
+    "q25": "graph",
+    "q26": "administrateur de base de données",
+    "q27": "analyste de base de données",
+    "q28": "ingénieur de données",
+    "q29": "objets blob d’ajout au niveau froid",
+    "q30": "Azure Data Lake Storage Gen2",
+    "q31": "Azure Files",
+    "q32": "Stockage Table Azure",
+    "q33": ["Stockage Blob Azure", "Azure Data Lake Storage"],
+    "q34": "append",
+    "q35": "Azure Cosmos DB",
+    "q36": "API SQL",
+    "q37": "Azure Data Lake Storage",
+    "q38": "Apache Gremlin",
+    "q39": ["une clé primaire", "une clé étrangère"],
+    "q40": ["optimise les lectures complexes", "utilise moins d’espace de stockage"],
+    "q41": "JOIN",
+    "q42": "Normalisation",
+    "q43": "un index",
+    "q44": ["une fonction", "une procédure stockée", "une vue"],
+    "q45": "Azure SQL Database",
+    "q46": "Azure SQL Database",
+    "q47": "Azure Synapse Analytics",
+    "q48": ["CockroachDB", "CouchDB", "MariaDB", "MySQL", "PostgreSQL"],
+    "q49": "Azure Synapse Analytics",
+    "q50": "MariaDB",
+    "q51": "Archive",
+    "q52": ["Chaque valeur RowKey est unique dans une table", "Les éléments d’une même partition sont stockés dans un ordre RowKey"],
+    "q53": "Publiez le rapport dans le service Power BI",
+    "q54": "colonnes",
+    "q55": ["optimise les lectures complexes", "utilise moins d’espace de stockage"],
+    "q56": ["INSERT", "UPDATE"],
+    "q57": ["Toutes les colonnes doivent contenir des valeurs", "Une table peut avoir une clé primaire basée sur plusieurs colonnes", "Chaque colonne doit avoir un type de données"],
+    "q58": "SELECT – INTO",
+    "q59": "une vue",
+    "q60": "Azure SQL Edge",
+    "q61": "objet blob de pages"
+    };
+
+    let score = 0;
+
+// Loop over each question and check the answer
+for (const [question, correctAnswer] of Object.entries(correctAnswers)) {
+    const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+
+    if (selectedOption) {
+        if (selectedOption.value === correctAnswer) {
+            // This is the correct answer
+            score++;
+            selectedOption.parentElement.classList.add('correct-answer');
+        } else {
+            // This is a wrong answer
+            selectedOption.parentElement.classList.add('incorrect-answer');
+        }
+        selectedOption.disabled = true; // Disable the option after submission
+    } else {
+        // If no option is selected, highlight the correct answer
+        const correctOption = document.querySelector(`input[name="${question}"][value="${correctAnswer}"]`);
+        if (correctOption) {
+            correctOption.parentElement.classList.add('correct-answer');
+        }
+    }
+}
+
+document.getElementById('score-value').textContent = score;
+document.getElementById('result-container').style.display = 'block';
+}
+    </script>
+</body>
+</html>
