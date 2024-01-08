@@ -865,19 +865,17 @@
     "q56": ["INSERT", "UPDATE"],
     "q57": ["Toutes les colonnes doivent contenir des valeurs", "Une table peut avoir une clé primaire basée sur plusieurs colonnes", "Chaque colonne doit avoir un type de données"],
     "q58": "SELECT – INTO",
-    "q59": "une vue",
+    "q59": "Une vue",
     "q60": "Azure SQL Edge",
     "q61": "objet blob de pages"
     };
 
     let score = 0;
-
-// Loop over each question and check the answer
-for (const [question, correctAnswer] of Object.entries(correctAnswers)) {
+    for (const [question, correctAnswer] of Object.entries(correctAnswers)) {
     const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
 
     if (selectedOption) {
-        if (selectedOption.value === correctAnswer) {
+        if (selectedOption.value.toLowerCase() === correctAnswer.toLowerCase()) {
             // This is the correct answer
             score++;
             selectedOption.parentElement.classList.add('correct-answer');
@@ -887,10 +885,10 @@ for (const [question, correctAnswer] of Object.entries(correctAnswers)) {
         }
         selectedOption.disabled = true; // Disable the option after submission
     } else {
-        // If no option is selected, highlight the correct answer
+        // If no option is selected, highlight the correct answer and mark it as incorrect
         const correctOption = document.querySelector(`input[name="${question}"][value="${correctAnswer}"]`);
         if (correctOption) {
-            correctOption.parentElement.classList.add('correct-answer');
+            correctOption.parentElement.classList.add('correct-answer', 'incorrect-answer');
         }
     }
 }
@@ -898,6 +896,6 @@ for (const [question, correctAnswer] of Object.entries(correctAnswers)) {
 document.getElementById('score-value').textContent = score;
 document.getElementById('result-container').style.display = 'block';
 }
-    </script>
+</script>
 </body>
 </html>
